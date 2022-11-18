@@ -1,0 +1,36 @@
+<div class="container">
+
+
+    <h1>Crear Librerias/Cafeterás</h1>
+    <hr>
+
+    <form method="POST" action="/crear">
+
+        <label>Nombre
+            <input name="name" type="text">
+        </label>
+        <br><br>
+
+        <label>Tipo
+            <select name="type">
+                <option value="coffeeshop">coffee shop</option>
+                <option value="bookstore" selected>bookstore</option>
+
+            </select>
+        </label>
+        <br><br>
+        <label>Latitud
+            <input name="latitude" type="text">
+        </label>
+        <br><br>
+
+        <label>Longitud
+            <input name="longitude" type="text">
+        </label>
+        <br><br>
+
+        <input type="submit" value="Crear un Lugar">
+
+    </form>
+
+</div>
